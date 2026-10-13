@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial;
+    background-color: #eee;
+}
+
+header {
+    background-color: #263b59;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.block {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+tbody tr:nth-child(even),
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
