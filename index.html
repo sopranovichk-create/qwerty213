@@ -1,88 +1,40 @@
-
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Student Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-
     <header>
-        <h2>Student Manager</h2>
-        <a href="#home">Главная</a>
-        <a href="#students">Студенты</a>
-        <a href="#about">О нас</a>
+        <img src="https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAVIENVPMEM3Kn4hVzJseX4N8xPjtBDIpwuFDucWksdxQZ8Ss6Xf8U_vt7ThYYfRmzq0x1CS3nOwTGyVrgADvwfB_tPiK_liS2RjvI40RJSzbKRk-o8b3nCxHfCCnBsyB2XBB9_vRoSmN.svg"" alt="logo" id="header-logo">
+        <div class="header-buttons">
+            <div class="language-box">
+                <span>#</span>
+
+                <select>
+                    <option value="ru">Русский</option>
+                    <option value="en">English</option>
+                    <option value="kz">Казахский</option>
+                </select>
+            </div>
+            <button id="loginbtn"><a href="index2.html" class="index2">Войти</button></a>
+        </div>
     </header>
 
-    <h1 id="home">Управление студентами</h1>
-    <p align="center">Добавляйте студентов и просматривайте список группы</p>
+    <main>
+        <section class="text">
+            <h1>Смотрите больше. Ищите меньше.</h1>
+            <h5>от 7,99 евро. Отменить подписку можно в любое время.</h5>
+            <p>Готовы смотреть? Введите адрес электронной почты чтобы оформить или обновить подписку</p>
+        </section>
 
-    <div class="block">
-        <h2>Добавить студента</h2>
-        <form>
-            Имя: <input type="text">
-            Фамилия: <input type="text">
-            Email: <input type="email">
-            Группа: <input type="text">
-            <button>Добавить студента</button>
-        </form>
-    </div>
-
-    <div class="block" id="students">
-        <h2>Список студентов</h2>
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Имя</th>
-                <th>Фамилия</th>
-                <th>Email</th>
-                <th>Группа</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Арман</td>
-                <td>Алиев</td>
-                <td>arman@mail.com</td>
-                <td>IT-24</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Данияр</td>
-                <td>Садыков</td>
-                <td>daniyar@mail.com</td>
-                <td>IT-25</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Алихан</td>
-                <td>Нуров</td>
-                <td>ali@mail.com</td>
-                <td>IT-24</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Алина</td>
-                <td>Иванова</td>
-                <td>alina@mail.com</td>
-                <td>IT-25</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Тимур</td>
-                <td>Ахметов</td>
-                <td>timur@mail.com</td>
-                <td>IT-24</td>
-            </tr>
-        </table>
-    </div>
-
-    <div class="block" id="about">
-        <h2>О проекте</h2>
-        <p>Сайт для хранения информации о студентах.</p>
-        <a href="#home">Подробнее</a>
-    </div>
-
+        <section class="text-input">
+            <input type="email" placeholder="адрес электронной почты">
+            <button>Начать смотреть</button>
+        </section>
+    </main>
 </body>
 </html>
-
